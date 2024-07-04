@@ -9,4 +9,4 @@ import { playBackService } from './musicService';
 
 
 AppRegistry.registerComponent(appName, () => App);
-TrackPlayer.registerPlaybackService(() => require('./service'));
+TrackPlayer.registerPlaybackService(() => playBackService);
